@@ -1,7 +1,7 @@
 
 import cv2 as cv
 
-vid  = cv.VideoCapture('vid1.mp4') #replace 'vid1.mp4' with 0 i u use the webcam :)
+vid  = cv.VideoCapture('vid2.mp4') #replace 'vid1.mp4' with 0 i u use the webcam :)
 
 while(True):
     ret, hotvideo = vid.read()
